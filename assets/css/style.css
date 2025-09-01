@@ -9,6 +9,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 .wrapper {
@@ -36,7 +37,7 @@ body {
 .desc {
   margin: 0;
   max-width: 30rem;
-  text-align: center;
+  margin: 0 1rem;
 }
 
 .links {
@@ -53,7 +54,7 @@ a:hover {
 }
 
 @media screen and (max-width: 700px) {
-  .heading {
+  .top {
     flex-direction: column;
     gap: 1rem;
   }
