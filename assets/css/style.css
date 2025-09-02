@@ -42,6 +42,7 @@ body {
 
 .links {
   display: flex;
+  gap: 1rem;
 }
 
 a {
